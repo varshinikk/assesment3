@@ -1,0 +1,226 @@
+body
+{
+	background-color:#DFE7E7;
+}
+.section1
+{
+	background-color:#D4D5D5;
+	margin-right: -8px;
+  margin-left: -8px;
+  padding: 4px;
+}
+#icon1
+{
+	margin-left: 90px;
+	font-size:24px
+}
+#icon2
+{
+	font-size:32px;
+	color:red;
+	margin-left: 400px;
+}
+#icon3
+{
+	font-size:24px;
+	margin-left: 300px;
+}
+.label1
+{
+	margin-left: 11px;
+  font-size: 18px;
+}
+.label2
+{
+	margin-left: 7px;
+  font-size: 20px;
+}
+.p3
+{
+	font-size: 20px;
+	width: 413px;
+	margin-top: -108px;
+  margin-left: 210px;
+}
+a
+{
+	margin-left: 130px;
+  font-size: 19px;
+  text-decoration: underline;
+  text-decoration-color:#D4D5D5;
+  color:#09ABAB;
+}
+a:hover
+{
+	color:#09ABAB;
+	text-decoration: underline;
+  text-decoration-color:#D4D5D5;
+}
+img
+{
+	height:115px; 
+	width:110px;
+	margin-top: -90px;
+  margin-left: 50px;
+}
+.p1
+{
+	margin-top: -19px;
+}
+.p4
+{
+	font-size: 16px;
+	width: 413px;
+	margin-top: -8px;
+  margin-left: 210px;
+}
+.p5
+{
+	font-size: 16px;
+	margin-top: -140px;
+  margin-left: 658px;
+}
+#icon4
+{
+	font-size: 20px;
+	color: yellow;
+}
+#icon5
+{
+	font-size: 22px;
+	color: green;
+}
+.div2, .div3, .div4
+{
+	margin-top: 20px;
+	background-color: #F0F2F3;
+	padding: 30px;
+	height: 170px;
+  border: 1px solid white;
+  padding: 10px;
+  box-shadow: 10px 10px 10px 10px #818384;
+}
+.div1
+{
+	background-color: #F0F2F3;
+	padding: 30px;
+	height: 205px;
+  border: 1px solid white;
+  padding: 10px;
+  box-shadow: 10px 10px 10px 10px #818384;
+}
+.div5
+{
+	background-color:#C6CDCF;
+	margin-right: 489px;
+  width: 123px;
+  font-size: 15px;
+}
+.div6
+{
+	margin-top: -103px;
+  margin-left: 173px;
+  font-size: 14px;
+  padding-left: 41px;
+  background-color: #C6CDCF;
+  height: 87px;
+  width: 119px;
+  padding-top: 5px;
+}
+.div7
+{
+	margin-top: -88px;
+  margin-left: 348px;
+  font-size: 14px;
+  padding-left: 41px;
+  background-color: #C6CDCF;
+  height: 87px;
+  width: 119px;
+  padding-top: 10px;
+}
+.label3
+{
+	width: 120px;
+  font-size: 16px;
+}
+#create
+{
+	background-color: blue;
+	height: 49px;
+  width: 169px;
+  margin-left: 0px;
+}
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  width: 160px;
+  margin-top: -20px;
+  padding: 12px 16px;
+  z-index: 1;
+  margin-left: 650px;
+}
+.dropdown:hover .dropdown-content
+{
+  display: block;
+}
+.btn 
+{
+  background-color:#4ABBF4;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  height: 30px;
+  margin-top: 6px;
+  border-radius: 50px;
+}
+.cal 
+{
+  padding:0 40px;
+  width: 214px;
+}
+.monthPre
+{
+  color: gray;
+  text-align: center;
+}
+.monthNow
+{
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+}
+.dayNow
+{
+  color: white;
+  text-align: center;
+  background-color: #05c4b4;
+}
+#calendar
+{
+  background-color: #eaedf2;
+  margin-left: -39px;
+  width: 75%;
+}
+.calendar td
+{ 
+  htmlContent: 2px;
+  width: 40px;
+}
+.button
+{
+  width: 200px;
+  border-radius: 25px;
+  margin-left: 50px;
+}
+.monthNow th
+{
+  text-align: center;
+}
+.dayNames
+{
+  background:#bababa;
+  color: #FFFFFF;
+  text-align: center;
+}

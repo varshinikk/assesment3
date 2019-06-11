@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>assesment3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
+</head>
+<body>
+<section class="section1">
+	<nav>
+		 <i id="icon1" class="fa fa-bars"></i>
+		 <label class="label1"><b>Home</b></label>
+		 <i id="icon2" class="fa fa-houzz"></i>
+		 <label class="label2"><b>qhub</b></label>
+		 <i id="icon3" class="fa fa-bell-o"></i>
+		 <a href="index.html">Logout</a>
+	</nav>
+</section>
+<div class="container-fluid">
+	<div class="row">
+    <div class="col-xs-3 col-md-3 col-lg-3 col-sm-3" style="margin-left: 100px;
+    font-size: 22px; margin-top: 35px;">
+    	<script type="text/javascript" src="./javascript/home.js"></script>
+    	<p id="demo">User</p>
+    </div>
+    <div class="col-xs-6 col-md-6 col-lg-6 col-sm-6" style="margin-top: 35px;">
+    <div class="div5"><p id="demo1"></p></div>
+    <script>
+    		var d = new Date();
+        document.getElementById("demo1").innerHTML = d;
+    </script>
+      <div class="div6"><label>TEMP<br><i id="icon4" class="fa fa-certificate";></i><br>85 F</label></div>
+      <div class="div7"><label>SIGNAL<br><i id="icon5" class="fa fa-wifi"></i></label></div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid" style="padding-left: 50px; margin-top: 80px;">
+	<div class="row">
+    <div class="col-xs-8 col-md-8 col-lg-8 col-sm-8">
+    	<div class="div1">
+    		<p>Fri</p>
+    		<p class="p1">4</p>
+    		<p class="p1"><b>May</b></p>
+    		<img src="./img/pic1.jpeg">
+    		<p class="p3"><b>Coachella Valley Music and Arts Festival, California</b></p>
+    		<p class="p4">"Coachella Valley Music and Arts Festival is a three day annual music and arts festival, organized by Goldenvoice and held at the Empire Polo fields in Indio, California, in the Inland Empire's Coachella Valley"</p>
+    		<div class="dropdown">
+    		<p class="p5">10:30-7:30 p.m</p>
+    		<div class="dropdown-content">
+    			 <button class="btn"><i id="icon7" class="fa fa-edit"></i> Edit</button>
+    			 <button class="btn" id="hide"><i id="icon7" class="fa fa-close"></i> Delete</button>
+    		</div>
+    	 </div>
+    	</div>
+    	<div class="div2">
+    		<p>Wed</p>
+    		<p class="p1">14</p>
+    		<p class="p1"><b>Mar</b></p>
+    		<img src="./img/pic2.jpeg">
+    		<p class="p3"><b>Rio Carnival Brazil</b></p>
+    		<p class="p4">The Carnival in Rio de Janeiro is a world famous festival held before Lent every year and considered the biggest carnival in the world with two million people per day on the streets. The festival of thr Rio date back to 1723 holiday</p>
+    		<div class="dropdown">
+    		<p class="p5">10:30-7:30 p.m</p>
+    		<div class="dropdown-content">
+    			 <button class="btn"><i id="icon7" class="fa fa-edit"></i> Edit</button>
+    			 <button class="btn" id="hide2"><i id="icon7" class="fa fa-close"></i> Delete</button>
+    		</div>
+    	 </div>
+    	</div>
+    	<div class="div3">
+    		<p>Sat</p>
+    		<p class="p1">25</p>
+    		<p class="p1"><b>Aug</b></p>
+    		<img src="./img/pic3.jpeg">
+    		<p class="p3"><b>Burning Man,Nevada</b></p>
+    		<p class="p4">"Burning Man is a annual event held in the Black Rock dessert in nothern Nevada, in the untited states The events starts on the monday before and ends on the day of the America Labor day holiday"</p>
+    		<div class="dropdown">
+    		<p class="p5">10:30-7:30 p.m</p>
+    		<div class="dropdown-content">
+    			 <button class="btn"><i id="icon7" class="fa fa-edit"></i> Edit</button>
+    			 <button class="btn" id="hide3"><i id="icon7" class="fa fa-close"></i> Delete</button>
+    		</div>
+    	  </div>
+    	</div>
+    	<div class="div4">
+    		<p>Sat</p>
+    		<p class="p1">30</p>
+    		<p class="p1"><b>June</b></p>
+    		<img src="./img/pic4.jpeg">
+    		<p class="p3"><b>Glastonbury Festival, England</b></p>
+    		<p class="p4">"The Glastonbury Festival of contemporary Performing Arts, commonly abbreviated to Glastonbury or Glasto is the largest green field open-air music and performing arts festival in world"</p>
+    		<div class="dropdown">
+    		<p class="p5">10:30-7:30 p.m</p>
+    		<div class="dropdown-content">
+    			 <button class="btn"><i id="icon7" class="fa fa-edit"></i> Edit</button>
+    			 <button class="btn" id="hide4"><i id="icon7" class="fa fa-close"></i> Delete</button>
+    		</div>
+    	  </div>
+    	</div>
+    </div>
+    <div class="col-xs-1 col-md-1 col-lg-1 col-sm-1"></div>
+    <div class="col-xs-3 col-md-3 col-lg-3 col-sm-3">
+    	<div class="cal"><label class="label3">Events Calender</label> <body onload="displayCalendar()">
+            <div id="calendar"></div><br>
+            <button id="create" type="button" class="btn btn-primary button">+ Create an event</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
